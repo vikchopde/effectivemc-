@@ -13,7 +13,7 @@
  *
  *   foo(expr)
  *
- *   type deduction of T is not only dependent on expr (what was passes in call) but also depends on form of paramtype.
+ *   type deduction of  T is not only dependent on expr (what was passes in call) but also depends on form of paramtype.
  *   thus , in simple case where param is reference or pointer type but not an universal reference
  *   deduction of T and param works like this :
  *
