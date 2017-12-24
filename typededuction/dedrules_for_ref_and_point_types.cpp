@@ -1,4 +1,5 @@
 #include <iostream>
+#include "utility.h"
 
 /*
  * Key Idea:
@@ -37,9 +38,9 @@ void foo_pointer(T* param) {}
 
 ///pointer to const
 template<typename T>
-void foo_pointer_const(const T* param);// {}
+void foo_pointer_const(const T* param) {}
 
-int main()
+MAIN_FUNC
 {
     int x = 10;
     const int cx = 20;
