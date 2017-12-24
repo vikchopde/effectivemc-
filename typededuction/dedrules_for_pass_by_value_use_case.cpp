@@ -25,7 +25,7 @@
 template <typename T>
 void foo(T param);//{}
 
-MAIN_FUNC
+/*MAIN_FUNC
 {
     int x = 10;
     const int cx = 20;
@@ -51,4 +51,4 @@ MAIN_FUNC
                  // hence it makes sense tht paramtype = const char* (which is pointer to constant data , where pointer can point to anything)
                  // but data cant be modfied.
                  // expr = const char* const  ,  T = const char*  , param = const char*
-};
+};*/

@@ -40,7 +40,7 @@ void foo_pointer(T* param) {}
 template<typename T>
 void foo_pointer_const(const T* param) {}
 
-MAIN_FUNC
+/*MAIN_FUNC
 {
     int x = 10;
     const int cx = 20;
@@ -66,4 +66,4 @@ MAIN_FUNC
     foo_pointer_const(&rx);   //   expr = const int* ,  T = int    , param = const int*
 
     return 0;
-}
+}*/

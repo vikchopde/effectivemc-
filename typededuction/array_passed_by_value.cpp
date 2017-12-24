@@ -8,10 +8,10 @@
  */
 
 template<typename T>
-void foo(T& param); //{}
+void foo(T param); //{}
 
-MAIN_FUNC
+/*MAIN_FUNC
 {
     char buff[] = "some buffer.!";
     foo(buff);
-};
+};*/

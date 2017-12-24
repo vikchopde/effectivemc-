@@ -16,9 +16,9 @@ void f(T param) {}
 template<typename T>
 void f2(T& param) {}
 
-MAIN_FUNC
+/*MAIN_FUNC
 {
     f(somefunc);   // param will deduce to : void (*)(int, double)
 
     f2(somefunc);  // param will deduce to : void (&)(int, double)
-};
+};*/

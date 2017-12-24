@@ -8,10 +8,10 @@
  */
 
 
-MAIN_FUNC
+/*MAIN_FUNC
 {
     char arr[] = { "vikram"};     //char[]
     char *name = arr;             //decays to char*
 
     std::cout << name << std::endl;
-};
+};*/

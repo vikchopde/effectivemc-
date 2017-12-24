@@ -18,8 +18,8 @@ void foo_equivalent(int *a)
 {
 }
 
-MAIN_FUNC
+/*MAIN_FUNC
 {
     int arr [] = {1,2};
-};
+};*/
 
