@@ -26,7 +26,7 @@
 
 ///reference
 template<typename T>
-void foo_reference(T& param) {}
+void foo_reference(T& param) { }
 
 ///reference to const
 template<typename T>
@@ -38,7 +38,7 @@ void foo_pointer(T* param) {}
 
 ///pointer to const
 template<typename T>
-void foo_pointer_const(const T* param) {}
+void foo_pointer_const(const T* param);// {}
 
 int main()
 {
@@ -64,7 +64,6 @@ int main()
     ///pointer
     foo_pointer_const(&x);    //   expr = int*        , T = int    , param = int*
     foo_pointer_const(&rx);   //   expr = const int* ,  T = int    , param = const int*
-
 
     return 0;
 }
