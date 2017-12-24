@@ -8,7 +8,6 @@
  *   template<typename T>
  *   void foo(T& param)
  *   {
- *
  *   }
  *
  *   foo(expr)
